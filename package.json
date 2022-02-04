@@ -1,0 +1,16 @@
+{
+  "name": "base-wasm",
+  "version": "0.1.0",
+  "main": "index.html",
+  "devDependencies": {
+    "vite": "^2.6.14",
+    "vite-plugin-wasm-pack": "^0.1.9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "js": "vite build",
+    "js-clean": "rm -rf dist",
+    "wasm": "wasm-pack build ./src-wasm --target web",
+    "wasm-clean": "rm -rf ./src-wasm/pkg"
+  }
+}
