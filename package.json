@@ -11,9 +11,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "js": "vite build",
-    "js-clean": "rm -rf dist",
-    "wasm": "wasm-pack build ./src-wasm --target web",
-    "wasm-clean": "rm -rf ./src-wasm/pkg"
+    "build-js": "vite build",
+    "clean-js": "rm -rf dist",
+    "build-wasm": "wasm-pack build ./src-wasm --target web",
+    "clean-wasm": "rm -rf ./src-wasm/pkg"
   }
 }

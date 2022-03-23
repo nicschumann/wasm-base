@@ -5,6 +5,6 @@ import init, { greet } from 'src-wasm';
 // functions we import.
 init().then(() => {
 	console.log('init wasm-pack');
-	greet('from vite!');
+	greet('from wasm!');
 });
 
